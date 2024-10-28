@@ -563,3 +563,17 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(74 222 128 / var(--tw-bg-opacity));
 }
+
+.bg-\[\#9EB0C2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(158 176 194 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#EDF2F8\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 242 248 / var(--tw-bg-opacity));
+}
+
+.text-\[0\.813rem\] {
+  font-size: 0.813rem;
+}
