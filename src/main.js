@@ -18,3 +18,17 @@ shareButton.addEventListener("click", function () {
     }
   }
 });
+
+function updateShareOptionsVisibility() {
+  if (window.innerWidth >= 640) {
+    shareOptions.style.display = "none";
+  } else {
+    dialog.style.display = "none";
+  }
+}
+
+// Run on load
+updateShareOptionsVisibility();
+
+// Run on window resize
+window.addEventListener("resize", updateShareOptionsVisibility);
