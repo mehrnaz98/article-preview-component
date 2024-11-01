@@ -11,23 +11,3 @@
   font-weight: 700;
   font-style: normal;
 }
-
-/* Mobile styles */
-@media (max-width: 768px) {
-  .author-info {
-    display: flex;
-  }
-
-  .share-options {
-    display: none;
-  }
-
-  /* Show share options when active */
-  .share-active .author-info {
-    display: none;
-  }
-
-  .share-active .share-options {
-    display: flex;
-  }
-}
