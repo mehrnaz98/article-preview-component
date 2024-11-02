@@ -806,14 +806,14 @@ video {
   padding: 0.75rem;
 }
 
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .px-5{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-}
-
-.px-7{
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
 }
 
 .py-7{
@@ -821,13 +821,12 @@ video {
   padding-bottom: 1.75rem;
 }
 
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .pb-0{
   padding-bottom: 0px;
+}
+
+.pb-3{
+  padding-bottom: 0.75rem;
 }
 
 .pb-5{
@@ -838,10 +837,6 @@ video {
   padding-top: 1rem;
 }
 
-.pb-3{
-  padding-bottom: 0.75rem;
-}
-
 .text-center{
   text-align: center;
 }
@@ -850,24 +845,16 @@ video {
   font-size: 0.66rem;
 }
 
+.text-\[0\.7rem\]{
+  font-size: 0.7rem;
+}
+
 .text-\[0\.813rem\]{
   font-size: 0.813rem;
 }
 
 .text-\[0\.9rem\]{
   font-size: 0.9rem;
-}
-
-.text-\[1\.35rem\]{
-  font-size: 1.35rem;
-}
-
-.text-\[0\.7rem\]{
-  font-size: 0.7rem;
-}
-
-.text-\[1rem\]{
-  font-size: 1rem;
 }
 
 .text-\[1\.2rem\]{
@@ -890,6 +877,16 @@ video {
   letter-spacing: 0.4rem;
 }
 
+.text-\[\#337261\]{
+  --tw-text-opacity: 1;
+  color: rgb(51 114 97 / var(--tw-text-opacity));
+}
+
+.text-\[\#4C4E61\]{
+  --tw-text-opacity: 1;
+  color: rgb(76 78 97 / var(--tw-text-opacity));
+}
+
 .text-\[\#535D6C\]{
   --tw-text-opacity: 1;
   color: rgb(83 93 108 / var(--tw-text-opacity));
@@ -903,21 +900,6 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\#4C4E61\]{
-  --tw-text-opacity: 1;
-  color: rgb(76 78 97 / var(--tw-text-opacity));
-}
-
-.text-\[\#7541C8\]{
-  --tw-text-opacity: 1;
-  color: rgb(117 65 200 / var(--tw-text-opacity));
-}
-
-.text-\[\#337261\]{
-  --tw-text-opacity: 1;
-  color: rgb(51 114 97 / var(--tw-text-opacity));
 }
 
 .opacity-60{
@@ -1011,28 +993,20 @@ video {
     padding-bottom: 0px;
   }
 
-  .sm\:pb-10{
-    padding-bottom: 2.5rem;
+  .sm\:pb-7{
+    padding-bottom: 1.75rem;
   }
 
   .sm\:pt-0{
     padding-top: 0px;
   }
 
-  .sm\:pb-5{
-    padding-bottom: 1.25rem;
-  }
-
-  .sm\:pb-7{
-    padding-bottom: 1.75rem;
+  .sm\:text-\[1\.35rem\]{
+    font-size: 1.35rem;
   }
 
   .sm\:text-xs{
     font-size: 0.75rem;
     line-height: 1rem;
-  }
-
-  .sm\:text-\[1\.35rem\]{
-    font-size: 1.35rem;
   }
 }
