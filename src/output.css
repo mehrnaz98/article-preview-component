@@ -866,6 +866,14 @@ video {
   font-size: 0.7rem;
 }
 
+.text-\[1rem\]{
+  font-size: 1rem;
+}
+
+.text-\[1\.2rem\]{
+  font-size: 1.2rem;
+}
+
 .font-medium{
   font-weight: 500;
 }
@@ -1022,5 +1030,9 @@ video {
   .sm\:text-xs{
     font-size: 0.75rem;
     line-height: 1rem;
+  }
+
+  .sm\:text-\[1\.35rem\]{
+    font-size: 1.35rem;
   }
 }
