@@ -675,6 +675,14 @@ video {
   min-width: 18rem;
 }
 
+.min-w-\[20rem\]{
+  min-width: 20rem;
+}
+
+.min-w-\[19rem\]{
+  min-width: 19rem;
+}
+
 .flex-\[1\.2\]{
   flex: 1.2;
 }
@@ -698,6 +706,10 @@ video {
 
 .flex-col{
   flex-direction: column;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
 }
 
 .items-center{
@@ -940,6 +952,24 @@ video {
 
 .duration-200{
   transition-duration: 200ms;
+}
+
+.hover\:h-6:hover{
+  height: 1.5rem;
+}
+
+.hover\:w-6:hover{
+  width: 1.5rem;
+}
+
+@keyframes pulse{
+  50%{
+    opacity: .5;
+  }
+}
+
+.hover\:animate-pulse:hover{
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
 .hover\:font-bold:hover{
