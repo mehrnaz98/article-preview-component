@@ -19,7 +19,7 @@
   <body class="bg-[#EDF2F8]">
     <main class="min-h-screen flex justify-center items-center px-5">
       <div
-        class="flex flex-col sm:flex-row sm:max-w-[49rem] min-w-[18rem] rounded-xl shadow-2xl"
+        class="flex flex-col sm:flex-row sm:max-w-[49rem] min-w-[20rem] rounded-xl shadow-2xl"
       >
         <div class="flex-[1.2] justify-end">
           <img
@@ -59,29 +59,35 @@
             </div>
             <!-- Share Options -->
             <div
-              class="share-options absolute -mx-10 mb-0 px-10 py-7 sm:-mb-7 bottom-0 left-0 right-0 bg-[#49556B] text-white rounded-b-xl flex items-center justify-start space-x-4"
+              class="share-options absolute -mx-10 mb-0 px-10 py-7 sm:-mb-7 bottom-0 left-0 right-0 bg-[#49556B] text-white rounded-b-xl flex items-center justify-start"
               id="shareOptions"
               style="display: none"
             >
-              <span
-                class="text-[0.9rem] font-medium tracking-[0.4rem] uppercase opacity-65"
-                >Share</span
-              >
-              <img
-                src="./src/assets/images/icon-facebook.svg"
-                alt="Facebook"
-                class="w-5 h-5"
-              />
-              <img
-                src="./src/assets/images/icon-twitter.svg"
-                alt="Twitter"
-                class="w-5 h-5"
-              />
-              <img
-                src="./src/assets/images/icon-pinterest.svg"
-                alt="Pinterest"
-                class="w-5 h-5"
-              />
+              <div class="flex flex-wrap space-x-4">
+                <span
+                  class="text-[0.9rem] font-medium tracking-[0.4rem] uppercase opacity-65"
+                  >Share</span
+                >
+                <a href="#">
+                  <img
+                    src="./src/assets/images/icon-facebook.svg"
+                    alt="Facebook"
+                    class="w-5 h-5"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="./src/assets/images/icon-twitter.svg"
+                    alt="Twitter"
+                    class="w-5 h-5"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="./src/assets/images/icon-pinterest.svg"
+                    alt="Pinterest"
+                    class="w-5 h-5"
+                /></a>
+              </div>
             </div>
 
             <div class="relative flex items-center justify-center group">
@@ -114,21 +120,24 @@
                 >
                 <div class="flex space-x-3">
                   <!-- Social Media Icons -->
-                  <img
-                    src="./src/assets/images/icon-facebook.svg"
-                    alt="Facebook"
-                    class="w-4 h-4"
-                  />
-                  <img
-                    src="./src/assets/images/icon-twitter.svg"
-                    alt="Twitter"
-                    class="w-4 h-4"
-                  />
-                  <img
-                    src="./src/assets/images/icon-pinterest.svg"
-                    alt="Pinterest"
-                    class="w-4 h-4"
-                  />
+                  <a href="#">
+                    <img
+                      src="./src/assets/images/icon-facebook.svg"
+                      alt="Facebook"
+                      class="w-4 h-4"
+                  /></a>
+                  <a href="#">
+                    <img
+                      src="./src/assets/images/icon-twitter.svg"
+                      alt="Twitter"
+                      class="w-4 h-4"
+                  /></a>
+                  <a href="#">
+                    <img
+                      src="./src/assets/images/icon-pinterest.svg"
+                      alt="Pinterest"
+                      class="w-4 h-4"
+                  /></a>
                 </div>
                 <!-- Tooltip Arrow -->
                 <div
